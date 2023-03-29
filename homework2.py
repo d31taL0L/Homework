@@ -17,7 +17,7 @@ if age.isdigit():
     int_age = int(age)
     str_age = str(age)
     if int_age < 7:
-        print("Where your perents?") # якщо користувачу менше 7 - вивести повідомлення"Де твої батьки?"
+        print("Where your parents?") # якщо користувачу менше 7 - вивести повідомлення"Де твої батьки?"
     elif int_age < 16:
         print("This movie for adults!") # якщо користувачу менше 16 - вивести повідомлення "Це фільм для дорослих!"
     elif int_age > 65:
